@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cream"
+    android:paddingLeft="25dp"
+    android:orientation="vertical"
+    android:paddingRight="25dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+<android_kaizen.com.multipanefragments.CustomTextView
+    custom:typeface="RobotoSlab-Regular.ttf"
+    android:text="@string/home"
+    android:textSize="14sp"
+    android:textColor="@color/grey"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/orange"
+                android:textAllCaps="true"
+                android:text="@string/Techer_Attendance"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:text="@string/from"
+                android:textColor="@color/blue1"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Bold.ttf"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                android:text="@string/oct"
+                android:textColor="@color/orange"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                    android:textColor="@color/blue1"
+                android:textAllCaps="true"
+                android:text="@string/to"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Bold.ttf"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/orange"
+                android:textAllCaps="true"
+                android:text="@string/oct1"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:textColor="@color/blue1"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                android:text="@string/_2017"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:background="@color/blue1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <android_kaizen.com.multipanefragments.CustomTextView
+        custom:typeface="RobotoSlab-Bold.ttf"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue1"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:text="@string/mark_attandance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+ <!--   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This is where each individual description will appear"
+        android:gravity="center"
+        android:id="@+id/version_description"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/present_popup"
+                    android:text="P"
+                    android:textColor="@color/white" />
+
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle_green"
+                android:text="Present"
+                android:textColor="@color/blue1"
+                android:textSize="14sp" />
+
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/absent_popup"
+                    android:text="A"
+                    android:textColor="@color/white" />
+
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:src="@drawable/circle_green"
+                android:text="Absent"
+                android:textColor="@color/blue1"
+                android:textSize="14sp" />
+
+
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="L"
+                    android:src="@drawable/leave_popup"
+                    android:textColor="@color/white" />
+
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle_green"
+                android:text="Leave"
+                android:textColor="@color/blue1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle_green"
+                android:text="Add Teacher"
+                android:textColor="@color/blue1"
+                android:textSize="14sp" />
+
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                android:background="@color/blue1" />
+
+
+            <android_kaizen.com.multipanefragments.CustomTextView
+                custom:typeface="RobotoSlab-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/circle_green"
+                android:text="Save"
+
+                android:textColor="@color/blue1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <View
+        android:visibility="gone"
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_weight="5"
+        android:background="@color/white">
+        <View
+            android:visibility="gone"
+            android:background="@color/grey"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+ android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sl. No"
+            android:id="@+id/txtView_RN_Student_Daily_Attendance"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textColor="@color/orange"
+            />
+
+        <View
+            android:background="@color/grey"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+            android:id="@+id/txtView_StudentId_Student_Daily_Attendance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:text="Teacher Name"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textColor="@color/orange"
+            android:textIsSelectable="false"
+
+            android:textSize="14sp"
+            />
+        <View
+            android:background="@color/grey"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+            android:id="@+id/txtView_Student_Name_Student_Daily_Attendance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Gender"
+            android:textColor="@color/orange"
+            android:textSize="14sp" />
+
+        <View
+            android:background="@color/grey"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:id="@+id/txtView_Student_Gender_Student_Daily_Attendance"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="120dp" />
+
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+
+            android:id="@+id/txtView_Student_Attendance_Student_Daily_Attendance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Attendance"
+            android:textColor="@color/orange"
+
+            android:textSize="14sp" />
+
+        <View
+            android:background="@color/grey"
+            android:layout_width="1dp"
+            android:visibility="gone"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>
+    <ListView
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_student_daily_attendance_listView"
+        />
+</LinearLayout>

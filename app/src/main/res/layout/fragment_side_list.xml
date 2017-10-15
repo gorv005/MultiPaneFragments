@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context="android_kaizen.com.multipanefragments.SideListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/school_name" />
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/school_name_1" />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+            android:text="Wednesday, 11 Oct 2017"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:textSize="14sp"
+            android:layout_height="wrap_content" />
+
+<View
+    android:layout_width="1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:background="@color/white"
+    android:layout_height="20dp"/>
+
+        <android_kaizen.com.multipanefragments.CustomTextView
+            custom:typeface="RobotoSlab-Regular.ttf"
+            android:text="Logout"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+    <ListView
+        android:background="@color/blue"
+        android:id="@+id/lvMenuItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:divider="@color/white"
+        android:footerDividersEnabled="false"
+        android:layout_below="@+id/rlHeader"
+        android:layout_alignParentLeft="true"></ListView>
+</LinearLayout>
